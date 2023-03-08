@@ -15,9 +15,11 @@ video {
   display: block;
   max-width: 100%;
 }
+
 button {
   /* border: none; */
   background: none;
+  cursor: pointer;
 }
 html {
   font-family: Arial, Helvetica, sans-serif;
