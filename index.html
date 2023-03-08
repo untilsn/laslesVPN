@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>laslesVPN</title>
-    <script
-      src="https://kit.fontawesome.com/232aed5428.js"
-      crossorigin="anonymous"
-    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="./picture/logo.png" type="image/gif" sizes="16x16">
+    <script src="https://kit.fontawesome.com/232aed5428.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./asset/main.css" />
     <link rel="stylesheet" href="./asset/reset.css" />
+    <link rel="stylesheet" href="./asset/responsive.css">
   </head>
   <body>
     <div class="wapper">
@@ -41,14 +41,14 @@
       <section class="banner">
         <div class="container">
           <div class="banner-left">
-            <h1 class="banner-text">
+            <h1 class="banner-text" data-aos="fade-right" data-aos-duration="1000" >
               Want anything to be easy with <span>LaslesVPN.</span>
             </h1>
-            <p class="banner-subtext">
+            <p class="banner-subtext" data-aos="fade-right" data-aos-duration="1000" >
               Provide a network for all your needs with ease and fun using
               <span>LaslesVPN</span> discover interesting features from us.
             </p>
-            <button class="banner-btn">Get Started</button>
+            <button class="banner-btn" data-aos="fade-up" data-aos-duration="1000">Get Started</button>
           </div>
           <div class="banner right">
             <div class="banner-img">
@@ -59,7 +59,7 @@
       </section>
       <!-- user -->
       <section class="user">
-        <div class="container">
+        <div class="container"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
           <div class="user-item">
             <div class="user-icon">
               <img src="./picture/icon (1).png" alt="" />
@@ -86,11 +86,11 @@
       <section class="provide">
         <div class="container">
           <div class="provide-left">
-            <div class="provide-img">
+            <div class="provide-img" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
               <img src="./picture/Illustration 2.png" alt="" />
             </div>
           </div>
-          <div class="provide-right">
+          <div class="provide-right" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
             <h1 class="provide-heading">
               We Provide Many Features You Can Use
             </h1>
@@ -129,7 +129,7 @@
           </p>
           <div class="choose-container">
             <!-- left -->
-            <div class="choose-column">
+            <div class="choose-column"  data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1000">
               <div class="column-img">
                 <img src="./picture/Standard.png" alt="" />
               </div>
@@ -155,7 +155,7 @@
               <button class="choose-btn">Select</button>
             </div>
             <!-- mid -->
-            <div class="choose-column">
+            <div class="choose-column"  data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1000">
               <div class="column-img">
                 <img src="./picture/Standard.png" alt="" />
               </div>
@@ -184,7 +184,7 @@
               <button class="choose-btn">Select</button>
             </div>
             <!-- right -->
-            <div class="choose-column">
+            <div class="choose-column"  data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1000">
               <div class="column-img">
                 <img src="./picture/Standard.png" alt="" />
               </div>
@@ -226,10 +226,10 @@
             See <span>LaslesVPN</span> everywhere to make it easier for you when
             you move locations.
           </p>
-          <div class="global-img">
+          <div class="global-img" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1000">
             <img src="./picture/global.png" alt="" />
           </div>
-          <div class="global-img-app">
+          <div class="global-img-app" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1000">
             <img src="./picture/Sponsored.png" alt="" />
           </div>
         </div>
@@ -337,7 +337,7 @@
             </h1>
             <span>Let's subscribe with us and find the fun.</span>
           </div>
-          <button class="subscribe-btn">Subscribe Now</button>
+          <button class="subscribe-btn" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="1000">Subscribe Now</button>
         </div>
       </div>
       <!-- bottom -->
@@ -390,5 +390,10 @@
         </div>
       </section>
     </div>
+    <!-- js aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -1,0 +1,92 @@
+@media only screen and (max-width: 1024px) {
+    .review .container {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        padding: 50px 0;
+    }
+    .user .container {
+        padding: 50px;
+    }
+    .user .user-line {
+        display: none;
+        
+    }
+}
+/* iphone plus */
+/* ipad */
+@media screen and (max-width: 768px)  {
+    .header .header-mid,
+    .header .header-right {
+        display: none;
+    }
+    .banner .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .provide .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .choose .choose-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .bottom .container {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+}
+/* iphone plus */
+@media screen and (min-width: 414px) and (max-width: 767px) {
+    .user .container {
+        display: flex;
+        flex-direction: column;
+        /* align-items: baseline; */
+        text-align: center;
+        gap: 30px   ;
+        justify-content: center;
+    }
+
+    .user .user-item {
+        display: inline-block;
+    }    
+    .user .user-item .user-icon img {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .review .review-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        gap: 20px;
+    }
+    .subscribe .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .bottom .bottom-left .bottom-logo,
+    .bottom .bottom-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .bottom .bottom-left .bottom-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom .container .bottom-left {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
