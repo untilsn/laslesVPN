@@ -389,6 +389,9 @@
   color: #000;
 }
 /* subscribe */
+.subscribe {
+  padding: 15px;
+}
 .subscribe .container {
   margin-top: 60px;
   display: flex;
